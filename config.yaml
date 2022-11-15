@@ -1,0 +1,15 @@
+---
+material-store:
+  environment:
+    stable:
+      url: "https://material.store.mr-beam.org"
+      enabled: false
+    beta:
+      url: "https://material.store.mr-beam.org"
+      enabled: false
+    alpha:
+      url: "https://material.store.mr-beam.org"
+      enabled: false
+    localhost:
+      url: "http://localhost:3000"
+      enabled: true
