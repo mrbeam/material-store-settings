@@ -4,15 +4,20 @@ material-store:
     stable:
       url: "https://material.store.mr-beam.org"
       enabled: false
+      healthcheck_url: ""
     prod:
       url: "https://material.store.mr-beam.org"
       enabled: false
+      healthcheck_url: ""
     beta:
       url: "https://material.store.mr-beam.org"
       enabled: false
+      healthcheck_url: ""
     alpha:
       url: "https://material.store.mr-beam.org"
       enabled: false
+      healthcheck_url: ""
     dev:
       url: "http://localhost:3000"
       enabled: true
+      healthcheck_url: ""
