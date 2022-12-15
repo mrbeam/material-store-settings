@@ -18,6 +18,6 @@ material-store:
       enabled: false
       healthcheck_url: ""
     dev:
-      url: "https://material-store-cit5sagu3a-uc.a.run.app"
+      url: "https://material-store-prod-cit5sagu3a-ew.a.run.app"
       enabled: true
-      healthcheck_url: "https://material-store-cit5sagu3a-uc.a.run.app"
+      healthcheck_url: "https://material-store-prod-cit5sagu3a-ew.a.run.app/healthcheck/app"
