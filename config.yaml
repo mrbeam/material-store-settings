@@ -2,22 +2,22 @@
 material-store:
   environment:
     stable:
-      url: "https://material.store.mr-beam.org"
-      enabled: false
-      healthcheck_url: ""
-    prod:
-      url: "https://material.store.mr-beam.org"
-      enabled: false
-      healthcheck_url: ""
-    beta:
-      url: "https://material.store.mr-beam.org"
-      enabled: false
-      healthcheck_url: ""
-    alpha:
-      url: "https://material.store.mr-beam.org"
-      enabled: false
-      healthcheck_url: ""
-    dev:
-      url: "https://material-store-prod-cit5sagu3a-ew.a.run.app"
+      url: "https://materials.mr-beam.org"
       enabled: true
-      healthcheck_url: "https://material-store-prod-cit5sagu3a-ew.a.run.app/healthcheck/app"
+      healthcheck_url: "https://materials.mr-beam.org/healthcheck/app"
+    prod:
+      url: "https://materials.mr-beam.org"
+      enabled: true
+      healthcheck_url: "https://materials.mr-beam.org/healthcheck/app"
+    beta:
+      url: "https://materials.mr-beam.org"
+      enabled: true
+      healthcheck_url: "https://materials.mr-beam.org/healthcheck/app"
+    alpha:
+      url: "https://materials.mr-beam.org"
+      enabled: true
+      healthcheck_url: "https://materials.mr-beam.org/healthcheck/app"
+    dev:
+      url: "https://materials.mr-beam.org"
+      enabled: true
+      healthcheck_url: "https://materials.mr-beam.org/healthcheck/app"
