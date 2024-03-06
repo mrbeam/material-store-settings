@@ -14,9 +14,9 @@ material-store:
       enabled: false
       healthcheck_url: ""
     alpha:
-      url: "https://material.store.mr-beam.org"
+      url: "https://material-store-prod-cit5sagu3a-ew.a.run.app"
       enabled: true
-      healthcheck_url: ""
+      healthcheck_url: "https://material-store-prod-cit5sagu3a-ew.a.run.app/healthcheck/app"
     dev:
       url: "https://material-store-prod-cit5sagu3a-ew.a.run.app"
       enabled: true
